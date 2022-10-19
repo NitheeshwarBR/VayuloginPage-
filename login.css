@@ -1,0 +1,74 @@
+.container{
+    display:inline;
+    flex-direction: column ;
+    justify-content: space-around;
+    align-items: center;
+}
+.title{
+    margin-top: 5vh;
+    margin-left: 4vw;
+    font-size: 5vh;
+}
+.signup_form{
+    margin-left: 25vw;
+    margin-top:7vh;
+}
+.fields{
+    margin-top: 25px;
+    height: 5vh;
+    width:max-content;
+    display: flex;
+    border-radius:2vh;
+}
+
+.inputfield{
+    width:30rem;
+    height: 3vh;
+    border:none;
+    text-align: justify;
+    text-decoration: solid;
+    text-decoration-color: rgb(8, 1, 1);
+    font-weight:400 ;
+    font-size:large;
+    border-radius: 2vh;
+    outline: none;
+    
+}
+
+.legendclass{
+    font-size:18px;
+    font-weight:800;
+    text-size-adjust: 5 ;
+    color:rgb(83, 80, 80);
+   
+}
+#submit-btn{
+    margin-left: 52vw;
+    margin-top: 3vh;
+    width:5rem;
+    height:2rem;
+    background-color: skyblue;
+    border-radius: 5vh;
+    font-weight: bold;
+    text-decoration:underline;
+    cursor:grabbing;
+}
+#line{
+    width: 85vw;
+    margin-top:5vh;
+    background-color:red;
+}
+.bottom{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 12vw;
+    margin-top: 3vh;
+}
+#endline{
+    width:30vw;
+    background-color:red;
+}
+
+
