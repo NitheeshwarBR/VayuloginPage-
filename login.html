@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="title">Create Your Account</h1>
+        <hr id="line">
+        <form class="signup_form" autocomplete="off">
+            <fieldset id="field1" class="fields">
+                <legend class="legendclass">First Name</legend><input type="text" id="firstname" class="inputfield">
+            </fieldset>
+            <fieldset id="field2" class="fields">
+                <legend class="legendclass">Last Name</legend><input type="text" id="lastname" class="inputfield">
+            </fieldset>
+            <fieldset id="field3" class="fields">
+                <legend class="legendclass">Email</legend><input type="email" id="emailid" class="inputfield"
+                    aria-errormessage="invalid email id">
+            </fieldset>
+            <fieldset id="field4" class="fields">
+                <legend class="legendclass">Contact Number</legend><input type="text" id="contactnumber"
+                    class="inputfield">
+            </fieldset>
+            <fieldset id="field5" class="fields">
+                <legend class="legendclass">New Password</legend><input type="password" id="password1"
+                    class="inputfield">
+            </fieldset>
+            <fieldset id="field6" class="fields">
+                <legend class="legendclass">Verify Password</legend><input type="password" id="password2"
+                    class="inputfield">
+            </fieldset>
+        </form>
+        <button type="submit" id="submit-btn">Sign Up !</button>
+        <div class="bottom">
+            <span>
+                <hr id="endline">
+            </span>
+            <span>
+                <h2 id="ortxt">OR</h2>
+            </span>
+        </div>
+
+    </div>
+</body>
+
+</html>
